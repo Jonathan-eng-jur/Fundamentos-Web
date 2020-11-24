@@ -1,0 +1,55 @@
+/*
+Estilo da página index
+*/
+
+.center {
+
+   text-align: center; 
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li {
+    display: inline;
+    padding: 10px;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: red;
+    font-size: 20px;
+}
+
+#menu li a:hover {
+    color: pink;
+}
+
+.padding-30 {
+    padding: 30px;
+
+}
+
+.borda-img{
+    border-radius: 50%;
+}
+
+.LxA{
+    width: 300px; 
+    right: 300px;
+
+}
+
+.tamanho{
+    width: 40px; 
+    right: 40px;
+
+}
+
+.justify{
+    text-align: justify;
+}
